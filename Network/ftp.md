@@ -1,0 +1,4 @@
+# Tout récupérer
+```bash
+mget * 
+```
