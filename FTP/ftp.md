@@ -1,4 +1,0 @@
-# Tout récupérer
-```bash
-mget * 
-```
