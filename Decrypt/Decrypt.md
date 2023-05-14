@@ -1,6 +1,6 @@
-# Décrypter avec private.key 
+# Décrypter avec gpg 
 ```bash
-openssl rsault -decrypt -inkey private.key -in [fileEncrypted] -out plaintext.txt
+gpg -f [file.gpg]
 ```
 
 # Décrypter avec le password et le fichier encodé
@@ -9,9 +9,9 @@ Si on connait l'algorithme et le nom d'itération
 openssl aes-256-cbc -d -iter 10 -pass pass:$(cat /pass.txt) -in flag.enc -out flag.dec
 ```
 
-# Décrypter avec gpg 
+# Décrypter avec private.key 
 ```bash
-gpg -f [file.gpg]
+openssl rsault -decrypt -inkey private.key -in [fileEncrypted] -out plaintext.txt
 ```
 
 # Sites de décodage d'algorithme
