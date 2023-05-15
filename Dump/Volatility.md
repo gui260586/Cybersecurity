@@ -1,4 +1,4 @@
-# Utilsation
+# Utilisation
 ```bash
 volatility -f file.dmp <plugins>
 ```
